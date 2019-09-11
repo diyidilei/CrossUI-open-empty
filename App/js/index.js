@@ -40,6 +40,18 @@ xui.Class('App', 'xui.Module',{
                 .setHeight("6.166666666666667em")
                 .setCaption("点我打开一个新的html")
                 .setFontSize("18px")
+                .onClick([
+                    {
+                        "desc":"跳转html",
+                        "type":"other",
+                        "target":"url",
+                        "args":[
+                            "indexs.html"
+                        ],
+                        "method":"open----_blank",
+                        "event":1
+                    }
+                ])
             );
             
             return children;
