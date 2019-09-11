@@ -34,8 +34,8 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Button")
                 .setHost(host,"xui_ui_button5")
                 .setDirtyMark(false)
-                .setLeft("21.666666666666668em")
-                .setTop("17.5em")
+                .setLeft("20em")
+                .setTop("7.5em")
                 .setWidth("21.5em")
                 .setHeight("6.166666666666667em")
                 .setCaption("点我打开一个新的html")
@@ -46,7 +46,7 @@ xui.Class('App', 'xui.Module',{
                         "type":"other",
                         "target":"url",
                         "args":[
-                            "indexs.html"
+                            "index1.html"
                         ],
                         "method":"open----_blank",
                         "event":1
