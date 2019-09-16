@@ -1,7 +1,7 @@
 // The default code is a module class (inherited from xui.Module)
 // Ensure that all the value of "key/value pair" does not refer to external variables
 // Sub module don't support async functions
-xui.Class('Module.model_content.js', 'xui.Module',{
+xui.Class('Module.model.js', 'xui.Module',{
     Instance:{
         // Dependencies css
         Dependencies: [],
